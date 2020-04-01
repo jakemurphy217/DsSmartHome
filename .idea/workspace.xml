@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd5dea4f-f3e9-42a1-b3cc-433cdab45abc" name="Default Changelist" comment="" />
+    <list default="true" id="cd5dea4f-f3e9-42a1-b3cc-433cdab45abc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lights/lightsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lights/lightsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$APIResponse$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$APIResponse$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$APIResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$APIResponseOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$lightStatusRequest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$lightStatusRequest$Builder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$lightStatusRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights$lightStatusRequestOrBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/HomeLights.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$MethodHandlers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$homeLightsBaseDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$homeLightsBlockingStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$homeLightsFileDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$homeLightsFutureStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$homeLightsImplBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$homeLightsMethodDescriptorSupplier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc$homeLightsStub.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/SmartHome/grpc/homeLightsGrpc.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/grpcExamples-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +43,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -22,6 +54,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1Zx3jVjk0CxM76IBhPR00HHvcff" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -29,6 +62,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -95,7 +129,7 @@
       <option name="presentableId" value="Default" />
       <updated>1585767052255</updated>
       <workItem from="1585767056925" duration="1253000" />
-      <workItem from="1585768328673" duration="3236000" />
+      <workItem from="1585768328673" duration="5647000" />
     </task>
     <servers />
   </component>
@@ -111,26 +145,30 @@
       <screen x="63" y="0" width="1473" height="864" />
     </state>
     <state x="334" y="70" width="1089" height="775" key="#com.intellij.execution.impl.EditConfigurationsDialog/63.0.1473.864@63.0.1473.864" timestamp="1585767911567" />
+    <state x="237" y="144" key="#com.intellij.ide.util.MemberChooser" timestamp="1585772889501">
+      <screen x="63" y="0" width="1473" height="864" />
+    </state>
+    <state x="237" y="144" key="#com.intellij.ide.util.MemberChooser/63.0.1473.864@63.0.1473.864" timestamp="1585772889501" />
     <state x="659" y="212" key="FileChooserDialogImpl" timestamp="1585767784856">
       <screen x="63" y="0" width="1473" height="864" />
     </state>
     <state x="659" y="212" key="FileChooserDialogImpl/63.0.1473.864@63.0.1473.864" timestamp="1585767784856" />
-    <state width="691" height="254" key="GridCell.Tab.0.bottom" timestamp="1585770820087">
+    <state width="691" height="254" key="GridCell.Tab.0.bottom" timestamp="1585773795702">
       <screen x="63" y="0" width="1473" height="864" />
     </state>
-    <state width="691" height="254" key="GridCell.Tab.0.bottom/63.0.1473.864@63.0.1473.864" timestamp="1585770820087" />
-    <state width="691" height="254" key="GridCell.Tab.0.center" timestamp="1585770820086">
+    <state width="691" height="254" key="GridCell.Tab.0.bottom/63.0.1473.864@63.0.1473.864" timestamp="1585773795702" />
+    <state width="691" height="254" key="GridCell.Tab.0.center" timestamp="1585773795701">
       <screen x="63" y="0" width="1473" height="864" />
     </state>
-    <state width="691" height="254" key="GridCell.Tab.0.center/63.0.1473.864@63.0.1473.864" timestamp="1585770820086" />
-    <state width="691" height="254" key="GridCell.Tab.0.left" timestamp="1585770820086">
+    <state width="691" height="254" key="GridCell.Tab.0.center/63.0.1473.864@63.0.1473.864" timestamp="1585773795701" />
+    <state width="691" height="254" key="GridCell.Tab.0.left" timestamp="1585773795700">
       <screen x="63" y="0" width="1473" height="864" />
     </state>
-    <state width="691" height="254" key="GridCell.Tab.0.left/63.0.1473.864@63.0.1473.864" timestamp="1585770820086" />
-    <state width="691" height="254" key="GridCell.Tab.0.right" timestamp="1585770820087">
+    <state width="691" height="254" key="GridCell.Tab.0.left/63.0.1473.864@63.0.1473.864" timestamp="1585773795700" />
+    <state width="691" height="254" key="GridCell.Tab.0.right" timestamp="1585773795701">
       <screen x="63" y="0" width="1473" height="864" />
     </state>
-    <state width="691" height="254" key="GridCell.Tab.0.right/63.0.1473.864@63.0.1473.864" timestamp="1585770820087" />
+    <state width="691" height="254" key="GridCell.Tab.0.right/63.0.1473.864@63.0.1473.864" timestamp="1585773795701" />
     <state x="135" y="256" key="com.intellij.ide.util.TipDialog" timestamp="1585768329970">
       <screen x="63" y="0" width="1473" height="864" />
     </state>
