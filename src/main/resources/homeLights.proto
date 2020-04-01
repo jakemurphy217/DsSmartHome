@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+option java_package = "com.SmartHome.grpc";
+
+service homeLights{
+rpc lightStatus(lightStatusRequest) returns (APIResponse);
+}
+
+message lightStatusRequest{
+string lightsOn=1;
+string lightsOff=2;
+
+}
+message APIResponse{
+string responsemessage=1;
+int32 responseCode=2;
+}
