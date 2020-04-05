@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+
+service fishTank{
+
+rpc responseWithFishNames( fishTankRequest ) returns (fishTankResponse){};
+
+rpc responseWithFishNamesStream(fishTankStreamRequest) returns (stream fishTankResponse){};
+
+}
+
+
+message fishTankRequest {
+string name = 1;
+string num_response = 2;
+}
+
+message fishTankStreamRequest {
+    string name = 1;
+    }
+
+
+message fishTankResponse{
+string message = 1;
+}
